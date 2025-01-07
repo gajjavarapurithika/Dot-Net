@@ -1,0 +1,13 @@
+﻿using System;
+int p, t, r;
+double ci, si;
+System.Console.WriteLine("Enter the principle");
+p = Convert.ToInt32(System.Console.ReadLine());
+System.Console.WriteLine("Enter the time");
+t = Convert.ToInt32(System.Console.ReadLine());
+System.Console.WriteLine("Enter the rate");
+r = Convert.ToInt32(System.Console.ReadLine());
+ci = (p * t * r) / 100;
+System.Console.WriteLine("Compound Interest is " + ci);
+si = (p * t * r) / 100;
+System.Console.WriteLine("Simple Interest is " + si);

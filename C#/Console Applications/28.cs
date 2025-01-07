@@ -1,0 +1,11 @@
+﻿using System;
+int n, l;
+double r,a;
+Console.Write("Enter the no.of sides in polygon:");
+n = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter the length of polygon:");
+l = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter the radius of polygon:");
+r = Convert.ToDouble(Console.ReadLine());
+a=(n/2) * l * r;
+Console.WriteLine("The area of polygon is:" + a);
